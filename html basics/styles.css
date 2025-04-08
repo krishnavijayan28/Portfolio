@@ -1,0 +1,26 @@
+body{
+    font-family:Arial,sans-serif;
+    background-color:darkkhaki;
+    margin:0;
+    padding:20px;
+}
+
+h1{
+    color:darkblue;
+    text-align: center;
+}
+
+h2{
+    color:brown;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+p, ul, ol{
+    color: chocolate;
+}
+
+ul, ol{
+    margin-left:20px ;
+}
+

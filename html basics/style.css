@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color:lightblue;
+}
+
+header{
+    background-color: lightpink;
+    padding: 20px 40px;
+    text-align:center;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+h1{
+    font-size: 3.5rem;
+    border:2px dotted red;
+}
+
+#highlight{
+    text-decoration: underline;
+    border:3px dotted blue;
+    background-color: red;
+    color: lightgreen;
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+nav li a{
+    text-decoration:none ;
+    padding:8px 15px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover{
+    color:red;
+    background-color: violet;
+    border-radius: 5px;
+}
+
+
