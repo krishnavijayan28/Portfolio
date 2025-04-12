@@ -1,0 +1,13 @@
+h1{
+    color:red;
+}
+.box{
+    width:300px;
+    padding:20px;
+    margin:20px auto;
+    background-color:bisque;
+    border:2px solid red;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px red;
+    text-align: center;
+}
